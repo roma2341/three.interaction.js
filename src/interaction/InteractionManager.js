@@ -1680,7 +1680,7 @@ class InteractionManager extends EventDispatcher {
   destroy() {
     this.removeEvents();
 
-    this.removeAllListeners();
+    //this.removeAllListeners();
 
     this.renderer = null;
 
